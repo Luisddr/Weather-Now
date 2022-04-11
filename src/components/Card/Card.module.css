@@ -1,0 +1,80 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+
+body{
+    background:linear-gradient(-45deg,#0077B6,#457b9d, #023e8a);
+    width: 100vw;
+    height: 1vh;
+}
+
+.container{
+    /* background: linear-gradient(-45deg,#48CAE4,#00B4D8, #0077b6); */
+    border: none;
+    margin: 5px 15px 15px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #03045e;
+    background: linear-gradient(-45deg, #00B4D8, #ADE8F4, #23a6d5, #0077B6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+    
+    
+    
+}
+
+
+.container h6, h4 {
+    text-align: center;
+    color: black
+    
+}
+
+.decoration{
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+.container div{
+   
+    text-align: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.boton{
+    background-color: #457b9d;
+    width: min-content;
+    margin-left: 91.5%;
+    border: none;
+    border-radius: 5px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: bold;
+    letter-spacing: 3px;
+   
+}
+
+.temperature{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.minMax{
+    font-weight: bold;
+    text-transform: lowercase;
+}

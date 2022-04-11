@@ -1,0 +1,8 @@
+.tarjetas{
+    display: flex;
+    /* flex-direction: row;
+    min-width: 100px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}

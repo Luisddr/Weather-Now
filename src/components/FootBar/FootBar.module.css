@@ -1,0 +1,13 @@
+.footerBar{
+    width: 100vw;
+    height: 25px;
+    background-color: #1d3557;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+
+    
+}

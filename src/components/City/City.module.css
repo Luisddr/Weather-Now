@@ -1,0 +1,54 @@
+.container{
+    /* background: linear-gradient(-45deg,#48CAE4,#00B4D8, #0077b6); */
+    border: none;
+    margin: 5px 15px 15px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #03045e;
+    background: linear-gradient(-45deg, #00B4D8, #ADE8F4, #23a6d5, #0077B6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+   
+
+    
+    
+    
+}
+
+.TextWeight{
+    font-weight: bold;
+    color: #1d3557;
+
+}
+
+.arrow{
+    font-size: 30px;
+}
+
+.text{
+    text-align: justify;
+    margin: 10px 10px;
+    color: #1d3557;
+    letter-spacing: 1px;
+}
+
+.tarjetas{
+    display: flex;
+    /* flex-direction: row;
+    min-width: 100px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
