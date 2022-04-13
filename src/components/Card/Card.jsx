@@ -6,7 +6,7 @@ import Style from "./Card.module.css"
 export default function Card({temp, max, min, name, img, onClose, id}) {
     // acá va tu código
     return  <div className={Style.container}>
-      <div className={Style.top}> <button className={Style.boton} onClick={onClose}>X</button> <Link className={Style.decoration} to={`city/${id}`}> <h4 >{name}</h4> </Link></div>
+      <div className={Style.top}> <button className={Style.boton} onClick={onClose}><i class="bi bi-x-lg"></i></button> <Link className={Style.decoration} to={`city/${id}`}> <h4 >{name}</h4> </Link></div>
       <div>
         <div><h3>{temp}°</h3></div>
         <div className={Style.temperature} >
